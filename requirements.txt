@@ -1,5 +1,14 @@
 PyQt5==5.13.0
 PyQt5-sip==4.19.19
+appdirs
+pyparsing
+six
+uuid
+sip
+urllib3
+asyncio
+cryptography
+website
 requests
 beautifulsoup4
 aiohttp
