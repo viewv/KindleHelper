@@ -27,7 +27,7 @@ jobs:
         if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
     - name: Build App
       run: |
-        python -m setup.py py2app
+        python -m setup py2app
     - name: Upload File
       uses: actions/upload-artifact@v2
       with:
