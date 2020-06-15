@@ -25,6 +25,7 @@ jobs:
         python -m pip install --upgrade pip
         pip install py2app
         if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+        pip install PyQt5-sip
     - name: Build App
       run: |
         python -m setup py2app
